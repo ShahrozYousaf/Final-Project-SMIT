@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Collabtalk.ai Podcaste</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!----Header ------>
+    <div class="container-fluid">
+        <div class="row">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img style="width: 5%;" src="./media/lodo.png" alt="">
+              <a class="navbar-brand" href="#">Collab<span style="color: rgb(245, 71,72);">Talk.ai</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span style="color: rgb(245, 71,72);">Signup</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-md-11">
+        <div class="col mt-4">
+            <span style="color: rgb(245, 71, 72); font-family: Poppins, sans-serif; font-weight: 500; font-size: 16px; line-height: 24px; background-color: rgb(253, 236, 236); border-radius: 30px; padding: 11px;">Faster and Better</span>
+        </div>
+        <div class="col mt-3">
+            <b>Dialogue </b>
+            <br>
+            <b>Podcasts </b>
+            <br>
+        </div>
+        <div>
+            <b>Generated </b>
+            <span id="ai" style="color: rgb(245, 71, 72);"> by AI </span>
+        </div>
+        <p>Generate Conversational podcasts using your favourite news articles or simply by giving a topic.</p>
+        <a class="btn btn-lg py-3 px-5" href="./Generatepodcaste.html" style="background-color: rgb(245, 71, 72); color: white;">Try Now</a>
+      <a class="pt-2">
+        <img src="data:image/png;base64,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" style="cursor: pointer; margin-bottom: -40px;">
+      </a>
+    </div>
+    <div class="col"></div>
+</div>
+<div class="col-sm-12 col-md-6"><img src="./media/person.314c32f38e6db8ffa1d6.png" alt="" class="pb-2" style="width: 100%; height: 100%;"></div>
+</div>
+       <div id="midSection" class="container-fluid pb-5 mb-5">
+        <div class="row headings"><div class="col mt-5 px-5">
+            <p style="text-align: center;"a>How it works</p>
+            <h1 style="text-align: center;">One Click Conversation</h1>
+            <h1 style="text-align: center;">Podcasts</h1>
+        </div>
+    </div>
+    <div class="container">
+         <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card w-50%" >
+                    <img src="./media/1.2.1.2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h1 class="card-title">Upload URL</h1>
+                      <p class="card-text">Don't have your script? no worries. Give us a news article URL or simply a topic name</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card  w-50%" >
+                    <img src="./media/12 (10).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h1 class="card-title">Add Speakers</h1>
+                      <p class="card-text">Add details about the Speakers, their gender and personality</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card  w-50%" >
+                    <img src="./media/car.98fc249f35b6db88839d.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h1 class="card-title">Download</h1>
+                      <p class="card-text">Generate your podcast and download it</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+       </div>
+    
+    
+    
+</body>
+</html>
